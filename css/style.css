@@ -1,0 +1,175 @@
+/*ceci est une feuille de style CSS du site web de la librairie " L'indépendante "*/
+/*---------------------------------*/
+
+body
+{
+	width: 960px;
+	margin: auto;
+}
+
+/*---------------------------*/
+/*     Généralités
+/*--------------------------*/
+
+h1
+{
+	font-family: arial, verdana,sans-serif;
+	font-size: 20px;
+	color:#AA3322;
+	margin-left: 40px;
+}
+
+h2
+{
+	font-family: arial, verdana,sans-serif;
+	font-size: 24px;
+	color:#000000;
+	margin-left: 50px;
+	margin-top: 40px;
+}
+
+h3
+{
+	font-family: arial, verdana,sans-serif;
+	font-size: 18px;
+	color:#000000;
+	margin-left: 50px;
+}
+
+p
+{
+	font-family: arial, verdana,sans-serif;
+	font-size: 14px;
+	color:#000000;
+	margin-left: 50px;
+}
+
+#logo
+{
+	margin-left: 25px;
+}
+
+#image3
+{
+	margin-left: 50px;
+}
+
+#image1 > img , #image2 > img
+{
+	padding-left: 30px;
+	margin-bottom: 25px;
+}
+
+p > a
+{
+	font-family: arial, verdana,sans-serif;
+	font-size: 14px;
+	color: #AA3322;
+	list-style-type: none;
+	text-decoration: none;
+}
+
+p > a:hover
+{
+	color: #AAAAAA;
+}
+
+#adresse
+{
+	list-style-type: none;
+	text-decoration: none;
+	margin-left: 10px;
+}
+
+/*---------------------------*/
+/*     Menu du site web
+/*--------------------------*/
+
+nav ul
+ {
+ 	background-color: #AA3322;
+ 	margin-bottom: 0;
+ }
+
+nav ul li
+ {
+ 	border: 1px dashed #CCCCCC;
+	list-style-type: none;
+ }
+
+nav ul li a
+ {
+ 	font-family: arial, verdana, sans-serif;
+ 	text-decoration: none;
+ 	font-size: 12px;
+ 	color: #CCCCCC;
+ }
+
+nav ul li a:hover
+ {
+	color: white;
+ }
+
+/*---------------------------*/
+/*     Tableau horaires
+/*--------------------------*/
+
+table
+{
+	border-collapse: collapse;
+	margin-bottom: 50px;
+	margin-left: 50px;
+}
+
+table tr th
+{
+	border: 1px solid #AA3322;
+	color: #000000;
+	font-size: 14px;
+	text-align: center;
+	width: 100px;
+}
+
+table tr td
+{
+	border: 1px solid #AA3322;
+	color: #000000;
+	font-size: 12px;
+	text-align: center;
+	width: 100px;
+}
+
+/*---------------------------*/
+/*    Citations de la page
+/*--------------------------*/
+
+blockquote
+{
+	background-color: #EDEDED;
+	font-family: arial, verdana,sans-serif;
+	font-size: 16px;
+	color: #000000;
+	margin-left: 90px;
+	width: 450px;
+	border: 1px dashed #AA3322;
+}
+
+/*---------------------------*/
+/*     Pied de la page
+/*--------------------------*/
+
+footer
+{
+	background-color: #AAAAAA;
+	margin-top: 50px;
+}
+
+footer p
+{
+	font-family: arial, verdana,sans-serif;
+	font-size: 14px;
+	color:#721717;
+	line-height: 80px;
+	text-align: center;
+}
+
